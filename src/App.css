@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("./assets/fonts/Gilroy-UltraLight.ttf") format('truetype');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("./assets/fonts/Gilroy-Light.ttf") format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("./assets/fonts/Gilroy-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("./assets/fonts/Gilroy-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("./assets/fonts/Gilroy-SemiBold.ttf") format('truetype');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("./assets/fonts/Gilroy-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("./assets/fonts/Gilroy-ExtraBold.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 800;
+}
+
+body {
+    font-family: Gilroy, sans-serif;
+    height: 100vh;
+}
+
+::placeholder {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.866667px;
+    text-transform: uppercase;
+    color: #D6DCE1;
+}
